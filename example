@@ -1,0 +1,23 @@
+#include <stdio.h>
+//#include <conio.h>
+int main(void)
+{
+	int number1 = 0;
+	int number2 = 0;
+	printf("Enter number for Lines=");
+	scanf_s("%d", &number1);
+	printf("Enter number for columns=");
+	scanf_s("%d", &number2);
+	for(int i= 0;  i< number1; i++)
+	{
+		
+		for (int j = 0; j < number2; j++)
+		{
+			printf("Line Number= %d", (i + 1));
+			printf("Column Number= %d\n", (j+1));
+		}
+	}
+
+	/*getch();*/
+	return 0;
+}
